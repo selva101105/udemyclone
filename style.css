@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.navbar{
+    padding:10px;
+    display:flex;
+    gap:30px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    align-items: center;
+}
+
+.navbar__s1__title{
+color: blueviolet;
+}
+.navbar__s2{
+    padding:10px;
+    border:solid black 1px;
+    border-radius: 100px;
+    width:50%;
+    display:flex;
+    gap:10px;
+}
+.navbar__s2 input{
+    border:none;
+    width:100%;
+    font-size: 16px;
+   
+}
+.navbar__s2 input:focus{
+    outline:none;
+}
+
+.navbar__s3{
+    display:flex;
+    gap:20px
+}
+.navbar__s3 p:hover{
+    color:black;
+    border:solid purple 2px;
+    border-radius: 20px;
+    padding:10px;
+}
+.navbar__s3 i:hover {
+    transform: scale(1.2); 
+}
+.categories{
+    display:flex;
+    padding:10px;
+    border-bottom:solid black 1px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.categories p:hover{
+transform: scale(0.9);
+} 
+
+.categories p{
+    background-color: blueviolet;
+    color:white;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.sale-image img{
+    width: 1340px;  
+    height:400px;
+}
+
+.recommended{
+    padding: 10px;;
+    
+}
+
+
+.course-card{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5px;
+    width:230px;
+    border:solid gainsboro 1px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.course-card button{
+    width: 90px;
+    margin: auto;
+    background-color:#9132ea;
+    color: white;
+    border-radius: 10px;
+}
+
+.course-card:hover{
+    transform: scale(1.10); 
+
+}
+.course-card img{
+     width: 90%;
+     height:50%;
+     margin: 5px;
+}
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.topics{
+    margin-top: 20px;
+    padding:10px;
+}
+
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    border:solid grey 2px;
+    border-radius: 20px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    transition: 0.3s;
+}
+
+.topics__container p:hover{
+    background-color: #9241df;
+    color: white;
+    transform: scale(1.05); 
+    
+}
+
+
+.popular{
+    margin-top: 20px;
+    padding:10px;
+}
+.popular__container{
+    margin-top: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+.footer__one{
+    display: flex;
+    gap:40px;
+    border-bottom:solid white 1px;
+    
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
